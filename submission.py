@@ -6,7 +6,8 @@ url = 'https://6rlj4ydnkovjlz2b5w75pgpnwu0chhfp.lambda-url.us-east-1.on.aws/'
 payload = {
 			"submitterEmail": " ", # your email as it appears on the MP instruction page
 			"secret": " ", # your secret key as it appears on the MP instruction page
-			"dbApi": " " # Your API Gateway POST API invoke url
+			"dbApi": " ", # Your API Gateway POST API invoke url
+            "redisApi": " " # You API Gateway Redis API invoke url
 		}
 
 print(json.dumps(payload))
